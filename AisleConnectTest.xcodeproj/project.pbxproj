@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		2F1325D926BA719F009C5356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1325D826BA719F009C5356 /* AppDelegate.swift */; };
 		2F1325DB26BA719F009C5356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1325DA26BA719F009C5356 /* SceneDelegate.swift */; };
-		2F1325DD26BA719F009C5356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1325DC26BA719F009C5356 /* ViewController.swift */; };
 		2F1325E026BA719F009C5356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1325DE26BA719F009C5356 /* Main.storyboard */; };
 		2F1325E326BA719F009C5356 /* AisleConnectTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F1325E126BA719F009C5356 /* AisleConnectTest.xcdatamodeld */; };
 		2F1325E526BA71A6009C5356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1325E426BA71A6009C5356 /* Assets.xcassets */; };
 		2F1325E826BA71A6009C5356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1325E626BA71A6009C5356 /* LaunchScreen.storyboard */; };
+		2F1325F026BA724D009C5356 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1325EF26BA724D009C5356 /* LoginViewController.swift */; };
+		2F1325FC26BA83CA009C5356 /* Extensions+UITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1325FB26BA83CA009C5356 /* Extensions+UITextFieldDelegate.swift */; };
+		2F1325FE26BA89DD009C5356 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1325FD26BA89DD009C5356 /* ListTableViewController.swift */; };
+		2F13260126BA8B1D009C5356 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F13260026BA8B1D009C5356 /* ListTableViewCell.swift */; };
+		2F13260326BBC708009C5356 /* ListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F13260226BBC708009C5356 /* ListModels.swift */; };
+		2F13260526BBCCE9009C5356 /* ConnectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F13260426BBCCE9009C5356 /* ConnectController.swift */; };
+		2F13260926BCF239009C5356 /* ListDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F13260826BCF239009C5356 /* ListDetailTableViewController.swift */; };
+		2F13260B26BCF2A4009C5356 /* ListDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F13260A26BCF2A4009C5356 /* ListDetailTableViewCell.swift */; };
+		2F13260D26BCFF7E009C5356 /* ListDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F13260C26BCFF7D009C5356 /* ListDetailModels.swift */; };
+		2F50FD5526C214A500235BD1 /* TokenResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F50FD5426C214A400235BD1 /* TokenResponseModel.swift */; };
+		2F50FD5726C235D800235BD1 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F50FD5626C235D800235BD1 /* ProductsModel.swift */; };
+		2F50FD5926C23BB300235BD1 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F50FD5826C23BB300235BD1 /* ProductTableViewController.swift */; };
+		2F50FD5D26C23D2500235BD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F50FD5C26C23D2500235BD1 /* ContentView.swift */; };
+		2F50FD5F26C23D6600235BD1 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F50FD5E26C23D6600235BD1 /* ProductTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F1325D526BA719F009C5356 /* AisleConnectTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AisleConnectTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1325D826BA719F009C5356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F1325DA26BA719F009C5356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F1325DC26BA719F009C5356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F1325DF26BA719F009C5356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F1325E226BA719F009C5356 /* AisleConnectTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AisleConnectTest.xcdatamodel; sourceTree = "<group>"; };
 		2F1325E426BA71A6009C5356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F1325E726BA71A6009C5356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F1325E926BA71A6009C5356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1325EF26BA724D009C5356 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2F1325FB26BA83CA009C5356 /* Extensions+UITextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UITextFieldDelegate.swift"; sourceTree = "<group>"; };
+		2F1325FD26BA89DD009C5356 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		2F13260026BA8B1D009C5356 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		2F13260226BBC708009C5356 /* ListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModels.swift; sourceTree = "<group>"; };
+		2F13260426BBCCE9009C5356 /* ConnectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectController.swift; sourceTree = "<group>"; };
+		2F13260826BCF239009C5356 /* ListDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailTableViewController.swift; sourceTree = "<group>"; };
+		2F13260A26BCF2A4009C5356 /* ListDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailTableViewCell.swift; sourceTree = "<group>"; };
+		2F13260C26BCFF7D009C5356 /* ListDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailModels.swift; sourceTree = "<group>"; };
+		2F50FD5426C214A400235BD1 /* TokenResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponseModel.swift; sourceTree = "<group>"; };
+		2F50FD5626C235D800235BD1 /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		2F50FD5826C23BB300235BD1 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		2F50FD5C26C23D2500235BD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F50FD5E26C23D6600235BD1 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +86,11 @@
 			children = (
 				2F1325D826BA719F009C5356 /* AppDelegate.swift */,
 				2F1325DA26BA719F009C5356 /* SceneDelegate.swift */,
-				2F1325DC26BA719F009C5356 /* ViewController.swift */,
+				2F1325F126BA7255009C5356 /* Controllers */,
+				2F1325FF26BA8AF7009C5356 /* Views */,
+				2F1325F226BA7B28009C5356 /* Models */,
+				2F1325F726BA7BCD009C5356 /* Other Controllers */,
+				2F1325FA26BA8380009C5356 /* Extensions */,
 				2F1325DE26BA719F009C5356 /* Main.storyboard */,
 				2F1325E426BA71A6009C5356 /* Assets.xcassets */,
 				2F1325E626BA71A6009C5356 /* LaunchScreen.storyboard */,
@@ -68,6 +98,55 @@
 				2F1325E126BA719F009C5356 /* AisleConnectTest.xcdatamodeld */,
 			);
 			path = AisleConnectTest;
+			sourceTree = "<group>";
+		};
+		2F1325F126BA7255009C5356 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F1325EF26BA724D009C5356 /* LoginViewController.swift */,
+				2F1325FD26BA89DD009C5356 /* ListTableViewController.swift */,
+				2F13260826BCF239009C5356 /* ListDetailTableViewController.swift */,
+				2F50FD5826C23BB300235BD1 /* ProductTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F1325F226BA7B28009C5356 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F13260226BBC708009C5356 /* ListModels.swift */,
+				2F13260C26BCFF7D009C5356 /* ListDetailModels.swift */,
+				2F50FD5626C235D800235BD1 /* ProductsModel.swift */,
+				2F50FD5426C214A400235BD1 /* TokenResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F1325F726BA7BCD009C5356 /* Other Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F13260426BBCCE9009C5356 /* ConnectController.swift */,
+			);
+			path = "Other Controllers";
+			sourceTree = "<group>";
+		};
+		2F1325FA26BA8380009C5356 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F1325FB26BA83CA009C5356 /* Extensions+UITextFieldDelegate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2F1325FF26BA8AF7009C5356 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F13260026BA8B1D009C5356 /* ListTableViewCell.swift */,
+				2F13260A26BCF2A4009C5356 /* ListDetailTableViewCell.swift */,
+				2F50FD5E26C23D6600235BD1 /* ProductTableViewCell.swift */,
+				2F50FD5C26C23D2500235BD1 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +165,8 @@
 			dependencies = (
 			);
 			name = AisleConnectTest;
+			packageProductDependencies = (
+			);
 			productName = AisleConnectTest;
 			productReference = 2F1325D526BA719F009C5356 /* AisleConnectTest.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +194,8 @@
 				Base,
 			);
 			mainGroup = 2F1325CC26BA719F009C5356;
+			packageReferences = (
+			);
 			productRefGroup = 2F1325D626BA719F009C5356 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,9 +223,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F1325DD26BA719F009C5356 /* ViewController.swift in Sources */,
+				2F13260926BCF239009C5356 /* ListDetailTableViewController.swift in Sources */,
+				2F1325FC26BA83CA009C5356 /* Extensions+UITextFieldDelegate.swift in Sources */,
+				2F50FD5D26C23D2500235BD1 /* ContentView.swift in Sources */,
+				2F50FD5526C214A500235BD1 /* TokenResponseModel.swift in Sources */,
+				2F13260526BBCCE9009C5356 /* ConnectController.swift in Sources */,
+				2F50FD5F26C23D6600235BD1 /* ProductTableViewCell.swift in Sources */,
+				2F50FD5926C23BB300235BD1 /* ProductTableViewController.swift in Sources */,
+				2F1325FE26BA89DD009C5356 /* ListTableViewController.swift in Sources */,
+				2F13260D26BCFF7E009C5356 /* ListDetailModels.swift in Sources */,
 				2F1325E326BA719F009C5356 /* AisleConnectTest.xcdatamodeld in Sources */,
+				2F50FD5726C235D800235BD1 /* ProductsModel.swift in Sources */,
+				2F13260326BBC708009C5356 /* ListModels.swift in Sources */,
+				2F13260126BA8B1D009C5356 /* ListTableViewCell.swift in Sources */,
+				2F13260B26BCF2A4009C5356 /* ListDetailTableViewCell.swift in Sources */,
 				2F1325D926BA719F009C5356 /* AppDelegate.swift in Sources */,
+				2F1325F026BA724D009C5356 /* LoginViewController.swift in Sources */,
 				2F1325DB26BA719F009C5356 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
